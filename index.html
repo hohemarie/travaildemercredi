@@ -1,0 +1,64 @@
+CTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Confirm Box</h2>
+
+
+<button onclick="myFunction1()">Try it</button>
+
+<p id="demo1"></p>
+<button onclick="myFunction2()">Try it</button>
+
+<p id="demo2"></p>
+<button onclick="myFunction3()">Try it</button>
+
+<p id="demo3">
+</p><button onclick="myFunction4()">Try it</button>
+
+<p id="demo4"></p>
+<script>
+function myFunction1() {
+    var txt;
+    if (confirm("Did I come to you before you come to me today?\nPress OK for Yes, Cancel for No")) {
+        txt = "Welcome here, enjoy your time at mariegoudon.eu";
+    } else {
+        txt = "Ok so either you came here without invitation, or the invitation you were sent was a fake one";
+    }
+    document.getElementById("demo1").innerHTML = txt;
+}
+function myFunction2() {
+    var txt;
+    if (confirm("Did I mention any information that concerns you in this website?")) {
+        txt = "";
+    } else {
+        txt = "Dont worry that's normal you are welcome here :)";
+    }
+    document.getElementById("demo2").innerHTML = txt;
+}
+function myFunction3() {
+    var txt;
+    if (confirm("Did I ask you for something before you came here?")) {
+        txt = "Please visit the website and the relevant information you need in the different sections. Have a nice visit!";
+    } else {
+        txt = "OK that does not matter listen to some music online mp3classicalmusic.net";
+    }
+    document.getElementById("demo3").innerHTML = txt;
+}
+function myFunction4() {
+    var txt;
+    if (confirm("Press a button!")) {
+        txt = "You pressed OK!";
+    } else {
+        txt = "You pressed Cancel!";
+    }
+    document.getElementById("demo4").innerHTML = txt;
+    document.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'
+}
+</script>
+
+</body>
+</html>
+
+
+
