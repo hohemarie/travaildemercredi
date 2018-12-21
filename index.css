@@ -1,0 +1,42 @@
+
+h1, h2, h3, em, p 
+{
+	display:flex;
+	width:700px;
+	margin:0 auto;
+	padding:15px;
+	text-align:left;
+	max-width: 900px;
+}
+
+ul
+{
+	text-align:justify;
+	width:700px;
+	margin:0 auto;
+	/*padding:-80px;*/
+	text-align:justify;
+	max-width:900px;
+	font-size:large;
+	line-height:160%;
+}
+
+p
+{
+	font-size:large;
+}
+
+h1
+{
+	font-size:2.25em;
+}
+h2
+{
+	font-size:1.75em;
+}
+
+p
+{
+	line-height:100%;
+}
+
