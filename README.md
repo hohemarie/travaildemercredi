@@ -12,4 +12,5 @@ Else, you stay on the current page.
 SUMMARY of FILE CONTENTS
 
 index.html ------------- contains the Wednesday homework
+
 index.css -------------- contains elements of layout
