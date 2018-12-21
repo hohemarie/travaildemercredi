@@ -5,3 +5,6 @@ The Better Mother Fuckingn Website is a concept created by co authors, that had 
 For this purpose, the content of the textif given and the model is furnished via a weblink and I was asked to recreate the content. 
 
 After 5 seconds, a popup appears to ask you if you want to go on a videos website if you answer yes, you watch a video, else, you stay on the current page.
+
+SUMMARY of FILE CONTENTS
+index2.html contains the Wednesday homework
